@@ -46,7 +46,7 @@ body{
     background-color: rgb(29, 30, 41);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
-    padding: 15px;
+    padding: 15px
 }
 
 #info{
@@ -54,10 +54,11 @@ body{
     margin:auto;
     text-align: center;
     width: 550px;
+    z-index: 1
 }
 
 .button{
-    display:block;
+    display:inline-block;
     position: relative;
     border-radius: 15px;
     background-color: #1d1e29;
@@ -77,15 +78,18 @@ body{
 }
 
 #gj{
-    bottom: 325px;
-    left: 465px;
-    width: 125px;
-    height: 50px;
+    transform: translate(540px, -330px);
     font-size: 19px;
     border-radius: 35px;
+    z-index: 1;
+    padding: 15px;
 }
 
 #gj:hover{
-    bottom:bottom
+    transform:translate(540px, -325px)
+}
+
+#gamejul{
+    color:aqua;
 }
 

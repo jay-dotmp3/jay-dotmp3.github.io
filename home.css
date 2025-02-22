@@ -63,23 +63,29 @@ body{
     background-color: #1d1e29;
     font-family: 'OPTIVagRound-Bold';
     color: aliceblue;
-    padding: 15px;
     border: thick;
     border-color: #13131a;
     border-style:solid;
     border-width: 3px;
+    box-shadow: #13131a 0px 6px, rgba(0, 0, 0, 0.1) 0px 15px 5px;
 }
 
-.button:hover{
-    background-color: rgb(48, 50, 65);
+.button:hover{ /* move all this to js lol */
+    background-color: #303241;
     cursor: pointer;
+    box-shadow: #13131a 0px 0px;
 }
 
 #gj{
     bottom: 325px;
-    left: 485px;
+    left: 465px;
     width: 125px;
+    height: 50px;
     font-size: 19px;
     border-radius: 35px;
+}
+
+#gj:hover{
+    bottom:bottom
 }
 

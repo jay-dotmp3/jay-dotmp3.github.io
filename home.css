@@ -2,26 +2,17 @@ body{
     background: linear-gradient(180deg, #0e0f15 0%, #000000 235%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-#logo{
-    display:block;
-    margin: auto;
-    position: relative ;
-    top: 152px;
-    width: 500px; 
-    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #jay_art{
-    display:block;
-    margin: auto;
-    position: relative;
-    bottom: 376px;
-    left: 5px;
-    rotate: 14deg;
-    width: 300px;
-    z-index: 0
+    position: absolute;
+    width: 520px;
+    z-index: 0;
+    transform: translateY(225px);
 }
 
 @font-face {
@@ -34,14 +25,8 @@ body{
 }
 
 
-.quote{
-    font-family: 'OPTIVagRound-Bold';
-    font-size: 21px;
-}
-
 .text_box{
-    display:block;
-    position: relative;
+    position: absolute;
     border-radius: 15px;
     background: linear-gradient(180deg, #1d1e29 5%, #000000 350%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -51,16 +36,18 @@ body{
 }
 
 #info{
-    bottom: 290px;
-    margin:auto;
     text-align: center;
-    width: 550px;
+    width: 590px;
     z-index: 1;
-    
+    transform: translateY(475px);
+}
+
+.quote{
+    font-family: 'OPTIVagRound-Bold';
+    font-size: 21px;
 }
 
 .button{
-    display:block;
     position:relative;
     border-radius: 15px;
     background-color: #1d1e29;
@@ -70,23 +57,20 @@ body{
     border-color: #13131a;
     border-style:solid;
     border-width: 2px;
-    box-shadow: #13131a 0px 6px, rgba(0, 0, 0, 0.1) 0px 25px 5px;
+    box-shadow: #13131a 0px 6px, rgba(0, 0, 0, 0.1) 0px 15px 5px;
+    padding: 15px;
+    font-size: 19px;
+    border-radius: 35px;
 }
 
 .button:hover{
     background-color: #303241;
     cursor: pointer;
     box-shadow: #13131a 0px 0px;
+    top: 3px;
 }
 
-#gj{
-    transform: translate(540px, -275px);
-    font-size: 19px;
-    border-radius: 35px;
-    z-index: 1;
-    padding: 15px;
-}
-
-#gj:hover{
-    transform:translate(540px,-270px);
+.socials{
+    transform: translateY(570px);
+    margin: 5px
 }

@@ -2,17 +2,17 @@ body{
     background: linear-gradient(180deg, #0e0f15 0%, #000000 235%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: flex;
+}
+
+.center{
+    display:flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 #jay_art{
-    position: absolute;
     width: 520px;
     z-index: 0;
-    transform: translateY(225px);
 }
 
 @font-face {
@@ -26,20 +26,25 @@ body{
 
 
 .text_box{
-    position: absolute;
     border-radius: 15px;
     background: linear-gradient(180deg, #1d1e29 5%, #000000 350%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
     padding: 15px;
     box-shadow: #0000002c 0px 8px
+    
+}
+
+#stuff{
+    flex-direction: column;
+    transform: translateY(135px);
 }
 
 #info{
     text-align: center;
     width: 590px;
     z-index: 1;
-    transform: translateY(475px);
+    flex-direction: column;
 }
 
 .quote{
@@ -48,7 +53,6 @@ body{
 }
 
 .button{
-    position:relative;
     border-radius: 15px;
     background-color: #1d1e29;
     font-family: 'OPTIVagRound-Bold';
@@ -61,16 +65,24 @@ body{
     padding: 15px;
     font-size: 19px;
     border-radius: 35px;
-}
+} 
 
 .button:hover{
     background-color: #303241;
     cursor: pointer;
     box-shadow: #13131a 0px 0px;
-    top: 3px;
+    transform: translateY(3px);
 }
 
-.socials{
-    transform: translateY(570px);
-    margin: 5px
+.button_positioning{
+    gap: 15px;
+}
+
+#portfolio{
+    width: 320px;
+    text-align: center;
+}
+
+.distance{
+    margin: 25px;
 }

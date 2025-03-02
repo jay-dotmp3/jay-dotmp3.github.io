@@ -12,7 +12,6 @@ body{
 
 #jay_art{
     width: 520px;
-    z-index: 0;
 }
 
 @font-face {
@@ -20,19 +19,13 @@ body{
     src: url(OPTIVagRound-Bold.otf);
 }
 
-.harlow {
-    font-family: "OPTIVagRound-Bold";
-}
-
-
 .text_box{
     border-radius: 15px;
     background: linear-gradient(180deg, #1d1e29 5%, #000000 350%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
     padding: 15px;
-    box-shadow: #0000002c 0px 8px
-    
+    box-shadow: #0000002c 0px 8px;
 }
 
 #stuff{
@@ -42,9 +35,8 @@ body{
 
 #info{
     text-align: center;
-    width: 590px;
-    z-index: 1;
-    flex-direction: column;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 .quote{
@@ -65,6 +57,7 @@ body{
     padding: 15px;
     font-size: 19px;
     border-radius: 35px;
+    width: fit-content;
 } 
 
 .button:hover{
@@ -79,8 +72,10 @@ body{
 }
 
 #portfolio{
-    width: 320px;
+    padding-left: 138px;
+    padding-right: 138px;
     text-align: center;
+    /* 138px */
 }
 
 .distance{

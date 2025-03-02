@@ -1,28 +1,17 @@
-function yt(){
-    window.open('https://www.youtube.com/@jaydotmp3', '_blank').focus();
+const links = {
+    x:"https://x.com/jaydotmp3",
+    gj:"https://gamejolt.com/@jaydotmp3",
+    yt:"https://www.youtube.com/@jaydotmp3",
+    p:"port.html"
 }
+   
 
-function gj(){
-    window.open('https://www.gamejolt.com/@jaydotmp3', '_blank').focus();
-}
-
-function x(){
-    window.open('https://www.x.com/jaydotmp3', '_blank').focus();
-}
-
-var dictionary = [
-    {
-        site:"yt",
-        link:"https://www.youtube.com/@jaydotmp3"
-    },
-    
-    {
-        site:"gj",
-        link:"https://www.gamejolt.com/@jaydotmp3"
-    },
-
-    {
-        site:"x",
-        link:"https://www.x.com/jaydotmp3"
+function move_page(button){
+    const id = button.id;
+    if (button.id != "p"){
+        window.open(links[button.id], '_blank').focus();
     }
-]
+        else{
+            window.open('p.html', '_self');
+        }  
+}

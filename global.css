@@ -4,20 +4,6 @@ body{
     background-attachment: fixed;
 }
 
-.center{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#jay_art{
-    width: 520px;
-}
-
-@font-face {
-    font-family: "OPTIVagRound-Bold";
-    src: url(OPTIVagRound-Bold.otf);
-}
 
 .text_box{
     border-radius: 15px;
@@ -26,17 +12,6 @@ body{
     color: aliceblue;
     padding: 15px;
     box-shadow: #0000002c 0px 8px;
-}
-
-#stuff{
-    flex-direction: column;
-    transform: translateY(135px);
-}
-
-#info{
-    text-align: center;
-    padding-left: 45px;
-    padding-right: 45px;
 }
 
 .quote{
@@ -67,17 +42,13 @@ body{
     transform: translateY(3px);
 }
 
-.button_positioning{
-    gap: 15px;
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#portfolio{
-    padding-left: 138px;
-    padding-right: 138px;
-    text-align: center;
-    /* 138px */
-}
-
-.distance{
-    margin: 25px;
+@font-face {
+    font-family: "OPTIVagRound-Bold";
+    src: url(OPTIVagRound-Bold.otf);
 }

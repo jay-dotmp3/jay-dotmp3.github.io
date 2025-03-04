@@ -9,9 +9,9 @@ const links = {
 function move_page(button){
     const id = button.id;
     if (button.id != "p"){
-        window.open(links[button.id], '_blank').focus();
+        window.open(links[button.id], '_blank');
     }
         else{
-            window.open('p.html', '_self');
+            window.open(links[button.id], '_self');
         }  
 }

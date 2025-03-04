@@ -2,7 +2,7 @@ const links = {
     x:"https://x.com/jaydotmp3",
     gj:"https://gamejolt.com/@jaydotmp3",
     yt:"https://www.youtube.com/@jaydotmp3",
-    p:"port.html"
+    p:"/portfolio/port.html"
 }
    
 

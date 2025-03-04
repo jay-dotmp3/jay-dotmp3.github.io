@@ -1,7 +1,25 @@
 #games{
     width: fit-content;
+    flex-direction: column; 
+    text-align: center;
+    gap:15px;
+    /*transform: translate(-125px, 80px);*/
+    transform: translateY(15px);
 }
 
-#a{
-    width: 100px;
+#gam{
+    width: 400px;
+    border-radius: 15px;
+}
+
+
+#title{
+    font-size: 25px;
+    display:contents;
+}
+
+h1{
+ color: white;
+ font-family: 'Comic Sans MS';
+ font-style: italic;   
 }

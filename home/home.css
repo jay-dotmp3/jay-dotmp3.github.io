@@ -1,16 +1,5 @@
-body{
-    background: linear-gradient(180deg, #0e0f15 0%, #000000 235%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 #jay_art{
     width: 520px;
-}
-
-#stuff{
-    flex-direction: column;
-    transform: translateY(135px);
 }
 
 #info{
@@ -19,17 +8,7 @@ body{
     padding-right: 45px;
 }
 
-.button_positioning{
-    gap: 15px;
-}
-
 #portfolio{
-    padding-left: 138px;
-    padding-right: 138px;
+    width: 320px;
     text-align: center;
-    /* 138px */
-}
-
-.distance{
-    margin: 25px;
 }

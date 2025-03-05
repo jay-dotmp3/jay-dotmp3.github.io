@@ -4,6 +4,7 @@ body{
     background-attachment: fixed;
 }
 
+img {max-width:100%;}
 
 .text_box{
     border-radius: 15px;
@@ -51,4 +52,16 @@ body{
 @font-face {
     font-family: "OPTIVagRound-Bold";
     src: url(OPTIVagRound-Bold.otf);
+}
+
+.column{
+    flex-direction: column;
+}
+
+.button_positioning{
+    gap: 15px;
+}
+
+.distance{
+    margin: 25px;
 }

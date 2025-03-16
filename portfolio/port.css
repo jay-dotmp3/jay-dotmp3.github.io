@@ -1,17 +1,19 @@
-#games{
+.showcase{
     width: fit-content;
-    flex-direction: column; 
     text-align: center;
-    gap:15px;
     /*transform: translate(-125px, 80px);*/
     transform: translateY(15px);
 }
 
-#gam{
+#games{
     width: 400px;
     border-radius: 15px;
 }
 
+#art{
+    width: 260px;
+    border-radius: 15px;
+}
 
 #title{
     font-size: 25px;
@@ -22,4 +24,13 @@ h1{
  color: white;
  font-family: 'Comic Sans MS';
  font-style: italic;   
+}
+
+.gap{
+    gap:15px;
+}
+
+#art_section{
+    padding-left: 60px;
+    padding-right: 60px;
 }

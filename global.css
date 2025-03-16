@@ -2,9 +2,15 @@ body{
     background: linear-gradient(180deg, #0e0f15 0%, #000000 235%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size:auto;
 }
 
-img {max-width:100%;}
+img{
+    max-width:100%;
+    max-height:100%;
+    object-fit: cover;
+}
+
 
 .text_box{
     border-radius: 15px;
@@ -33,7 +39,6 @@ img {max-width:100%;}
     padding: 15px;
     font-size: 19px;
     border-radius: 35px;
-    width: fit-content;
 } 
 
 .button:hover{
@@ -43,10 +48,18 @@ img {max-width:100%;}
     transform: translateY(3px);
 }
 
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .center{
     display:flex;
     justify-content: center;
     align-items: center;
+    height: 100vh
 }
 
 @font-face {
@@ -58,10 +71,31 @@ img {max-width:100%;}
     flex-direction: column;
 }
 
-.button_positioning{
-    gap: 15px;
+.row{
+    flex-direction: row;
 }
 
-.distance{
-    margin: 25px;
+
+.unselective{
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.df{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 500px;
+}
+
+#small{
+    width: 250px;
+    height: 250px;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }

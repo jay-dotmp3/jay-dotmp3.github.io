@@ -8,7 +8,16 @@
     padding-right: 45px;
 }
 
-#portfolio{
-    width: 320px;
+.j{
+    width: inherit;
     text-align: center;
+}
+
+.button_size{
+    width: 375px;
+    gap: 15px;
+}
+
+.distance{
+    margin: 25px;
 }

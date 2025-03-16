@@ -7,8 +7,7 @@ const links = {
    
 
 function move_page(button){
-    const id = button.id;
-    if (button.id != "p"){
+    if (button.id != "p" && button.id != "abt"){
         window.open(links[button.id], '_blank');
     }
         else{

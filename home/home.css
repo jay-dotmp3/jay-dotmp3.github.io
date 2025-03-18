@@ -4,20 +4,25 @@
 
 #info{
     text-align: center;
-    padding-left: 45px;
-    padding-right: 45px;
 }
 
-.j{
-    width: inherit;
-    text-align: center;
+.container{
+    width: 350px;
 }
 
 .button_size{
-    width: 375px;
-    gap: 15px;
+    width: inherit;
 }
 
-.distance{
-    margin: 25px;
+#home_buttons{
+    gap: 5px;
+    text-align: center;
+}
+
+#debug{
+    background-color: aliceblue;
+}
+
+.test{
+    gap: 15px;
 }

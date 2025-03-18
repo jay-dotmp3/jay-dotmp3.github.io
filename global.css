@@ -39,6 +39,7 @@ img{
     padding: 15px;
     font-size: 19px;
     border-radius: 35px;
+    width: inherit;
 } 
 
 .button:hover{
@@ -75,6 +76,9 @@ img{
     flex-direction: row;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
 
 .unselective{
     -webkit-touch-callout: none; 
@@ -83,19 +87,4 @@ img{
     -moz-user-select: none; 
     -ms-user-select: none; 
     user-select: none;
-}
-
-.df{
-    background-color: antiquewhite;
-    width: 500px;
-    height: 500px;
-}
-
-#small{
-    width: 250px;
-    height: 250px;
-}
-
-.wrap{
-    flex-wrap: wrap;
 }

@@ -2,20 +2,7 @@
     width: 520px;
 }
 
-#info{
-    text-align: center;
-}
-
-.container{
-    width: 350px;
-}
-
-.button_size{
-    width: inherit;
-}
-
-#home_buttons{
-    gap: 5px;
+#text_center{
     text-align: center;
 }
 
@@ -23,10 +10,10 @@
     background-color: aliceblue;
 }
 
-.gap{
-    gap: 15px;
+.container{
+    width: 380px;
 }
 
-.distance{
-    margin: 15px;
+.gap{
+    gap:15px;
 }

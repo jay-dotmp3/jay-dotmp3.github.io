@@ -23,6 +23,10 @@
     background-color: aliceblue;
 }
 
-.test{
+.gap{
     gap: 15px;
+}
+
+.distance{
+    margin: 15px;
 }

@@ -17,7 +17,8 @@ img{
     background: linear-gradient(180deg, #1d1e29 5%, #000000 350%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
-    box-shadow: #0000002c 0px 8px;padding: 15px;
+    box-shadow: #0000002c 0px 8px;
+    padding: 15px;
 }
 
 .quote{
@@ -38,7 +39,7 @@ img{
     padding: 15px;
     font-size: 19px;
     border-radius: 35px;
-    width: inherit;
+    width:inherit
 } 
 
 .button:hover{
@@ -52,13 +53,9 @@ img{
     display:flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .center{
-    display:flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh
 }
 
@@ -86,5 +83,14 @@ img{
     -moz-user-select: none; 
     -ms-user-select: none; 
     user-select: none;
+}
+
+.fit_size{
+    width: inherit;
+    height: inherit;
+}
+
+.padding_fix{
+    box-sizing: border-box;
 }
 

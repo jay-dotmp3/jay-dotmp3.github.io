@@ -14,18 +14,22 @@
     <div class="flex center column gap">
         <img id="jay_art" src="home/yea.png">
 
-        <div class="container flex column gap" id="debug">
-            <div class="text_box unselective" >
-                <span class="quote">test</span><br>
-                test
-            </div>
+        <div class="container unselective flex column" id="debug">
+            
+            <div class="flex fit_size column gap" id="text_center">
+                <div class="text_box fit_size padding_fix"> <span class="quote">test</span><br>
+                    test</div>
+                <div onclick=move_page(this) id="p" class="button padding_fix">test</div>
+            
 
-            <div class="flex button_size" id="home_buttons">
-                <b class="button">test</b>
-                <b class="button">test</b>
-                <b class="button">test</b>
+            <div class="flex fit_size gap" id="text_center">
+                <div onclick=move_page(this) id="yt" class="button padding_fix">youtube</div>
+                <div onclick=move_page(this) id="gj" class="button padding_fix">gamejolt</div>
+                <div onclick=move_page(this) id="x" class="button padding_fix">twitter / x</div>
+            </div>    
             </div>
         </div>
     </div>
+
 </body>
 </html>
